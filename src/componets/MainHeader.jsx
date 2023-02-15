@@ -8,8 +8,9 @@ function MainHeader({ onCreatePost }) {
       <h1 className={classes.logo}>
         <MdMessage />
         React Poster
-      </h1>
-      <p>
+      </h1> 
+
+      <p>   
         <button className={classes.button} onClick={onCreatePost}>
           <MdPostAdd size={18} />
           New Post
